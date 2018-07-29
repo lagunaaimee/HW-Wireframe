@@ -1,6 +1,13 @@
-* body{
+* section {
     width: 960px; 
     box-sizing: border-box;
+    text-align: center;
+  }
+
+* aside {
+    width: 960px; 
+    box-sizing: border-box;
+    text-align: center;
   }
 
 .header {
@@ -18,38 +25,45 @@
 }
     
 .section {
-    padding: 10px;
-    width: 50%;
+    padding: 20px;
+    width: 48%;
     float: left;
     background-color: lightcoral; 
     color: white;
     }
 
 .article {
-    padding: 5px;
+    padding: 20px;
     background-color: gray; 
     color: white;
     }
 
 .htags {
-    padding: .5px;
-    width: .25px;
+    padding: 5px;
     background-color: gold; 
     color: white;
     }
 
+.para {
+    padding: 5px;
+    background-color: tomato; 
+    color: white;
+    }
+
 .aside {
-    padding: 10px;
-    width: 50%;
+    padding: 20px;
+    width: 48%;
+    height: 200px;
     float: right;
     background-color: gray; 
     color: white;
     }
 
-
 .footer {
-    padding: 20px;
-    margin-bottom: auto;
+    clear: both;
+    overflow: auto;
+    padding: 10px;  
+    text-align: center;
     background-color: rgb(95, 30, 93);
     color: white; 
 }
